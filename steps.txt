@@ -1,0 +1,18 @@
+STEPS:
+1)first oka parent ane box lo manam ok circle create chesthunam.
+2)create a circle by creating a square box and create background color black by adjusting height and width..
+3)make border radius as 50%. so, it will become a circle.
+4)make its position:absolute...I need that circle at right of the page so take right:0px and top:0px.
+I need that circle half only...so take right:-375px
+                                       top:-25px;
+
+5)create one more named header-home box in parent box..
+  >in that keep heading as Expense Tracker and insert an image in heading
+  >Add button
+  >To keep heading tag and button in same line:
+    take  display:flex
+          justify-content:space-between(move heading and button at border and add space between heading and button)
+  >since,circle overlaps the button take z-index=2 for header-home...so that it has higher z-index..it displays above.
+  >Apply top and padding for header-home
+  >make some decorations for button.
+          

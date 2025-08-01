@@ -1,0 +1,84 @@
+*{
+    font-family: "Comfortaa", sans-serif;
+}
+.parent{
+    position: relative;
+    border: 1px solid black;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+ }
+ .solid-circle{
+     height: 750px;
+     width: 750px;
+     background-color: rgb(120, 137, 237);
+     border-radius: 50%;
+     position:absolute;/*circle comes above white layer */
+     right:-375px; /*750/2*/
+     /* top:-20px; */
+     z-index: 1;/*position:absolute vadinappudu z-index vadali*/
+ }
+ .header-home{
+     display: flex;
+      justify-content: space-between;
+     position:absolute;
+     z-index: 2;
+     width: 100%;
+     top: 20px;
+     padding: 0px 25px;
+ 
+ }
+ #click-here-btn{
+     background-color: white;
+     color: rgb(88, 109, 228);
+     font-size: large; 
+     font-weight: 600; 
+     box-shadow:4px 5px 5px rgb(0,0,0,0.50);
+ }
+ .main-content{
+     /* border:2px solid black; */
+     margin:25px;
+ 
+ }
+ #name{
+    color:rgb(88, 109, 228);
+    font-size: 100px;
+ }
+ .form-floating{
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.50);
+    border-radius: 8px;
+ }
+ #login-btn{
+     border-radius: 5px;
+     background-color: cornflowerblue;
+     color: white;
+     padding: 5px 25px;
+     border:2px solid cornflowerblue;
+     font-size: large;
+     margin-top:5px;
+ }
+ @media only screen and (max-width:768px){
+    .solid-circle{
+        background-color: black;
+        height: 345px;
+        width: 345px;
+        right: -215px;
+        top: -171px  
+    }
+    #click-here-btn{
+        background-color: white;
+        color: rgb(5, 6, 9);
+        font-size: small; 
+        font-weight: 600; 
+        box-shadow:4px 5px 5px rgb(0,0,0,0.50);
+    }
+    #name{
+        color: black;
+    }
+    #login-btn{
+        background-color: black;
+        color: white;
+        border:2px solid black;
+    }
+ }

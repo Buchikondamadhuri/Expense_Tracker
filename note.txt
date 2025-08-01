@@ -1,0 +1,13 @@
+NOTE-1:
+>>position:relative evvadam valana top:10px bottom:10px set cheste apply avthadi...alage left,right kuda...
+>>position:relative evvakapothe top:10px,bottom:10px apply avvadhu.
+
+NOTE-2:OVERFLOW:HIDDEN
+>>overflow:hidden evvadam valana...edaina line dhati vellipothe dani chupinchakunda undataniki vaduthamu...
+
+NOTE: -3px POSITION ABSOLUTE
+moves relative to its parent
+
+NOTE-4: h1 to h6 and <p> have in-built margin...to remove that we write class="m-0"
+
+NOTE-5: img color change cheyali ante filter:invert(x%) ani rayali...
